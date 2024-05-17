@@ -11,7 +11,7 @@
 </head>
 <body>
     {% for i in flight %}
-        <img src="{{ i.image }}" class="w-100" style="height: 410px;">
+        <img src="{{ i.image.url }}" class="w-100" style="height: 410px;">
         <div class="container mt-5 text-center h3"  style="color: black; font-weight: bold;">
             <div class=" p-4" style="background-color: #dcded7;border: 2px solid #fff;border-radius: 25px;">
                 <p>{{ i.content }}</p>
