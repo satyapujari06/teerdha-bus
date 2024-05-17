@@ -94,7 +94,7 @@
             {% for i in res1 %}
             <div class="card-image">
                 {% if i.image %}
-                    <img src="{{ i.image }}">
+                    <img src="{{ i.image.url }}">
                 {% endif %}
             </div>
         {% endfor %}
