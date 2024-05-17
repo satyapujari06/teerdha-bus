@@ -35,7 +35,7 @@ h5{
   
   {% for j in rdx %}
 
-  <img class="w-100" src="{{ j.image }}" alt="image" class="pb-5" style="height: 400px;">
+  <img class="w-100" src="{{ i.image.url }}" alt="image" class="pb-5" style="height: 400px;">
   
 
   <div class="container mt-5" style="width: 800px;background-color: rgb(230, 196, 155);border-radius: 10px;">
@@ -63,7 +63,7 @@ h5{
         <div class="row" id="sj" style="height: 300px;">
             {% for i in rx %}
                 <div class="col-3 m-5 card" style="width: 300px;border-radius: 30px;">
-                    <img src="{{ i.image1 }}" alt="image1" style="border-radius: 30px;margin-top: 10px;"><br>
+                    <img src="{{ i.image1.url }}" alt="image1" style="border-radius: 30px;margin-top: 10px;"><br>
                     <div class="h5">
                         {{i.category}}
                     </div>
